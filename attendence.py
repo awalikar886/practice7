@@ -10,7 +10,7 @@ else:
     attended = int(sys.argv[2])
     print("User provided values.")
 
-attendance_percentage = (attended_classes / total_classes) * 100
+attendance_percentage = (attended / classes) * 100
 
 print("\n--- Attendance Report ---")
 print("Total Classes Held:", total_classes)
