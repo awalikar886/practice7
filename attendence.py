@@ -13,8 +13,8 @@ else:
 attendance_percentage = (attended / classes) * 100
 
 print("\n--- Attendance Report ---")
-print("Total Classes Held:", total_classes)
-print("Classes Attended:", attended_classes)
+print("Total Classes Held:", classes)
+print("Classes Attended:", attended)
 print(f"Attendance Percentage: {attendance_percentage:.2f}%")
 
 
